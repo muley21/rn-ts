@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exce ts-node ./index.ts",
-    "start": "nodemon index.ts"
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "start": "nodemon ./src/index.ts"
   },
   "engines": {
     "npm": "10.5.2",
